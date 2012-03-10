@@ -1,8 +1,7 @@
 
+# Install
 
-** Buggy! report bugs!
-
-#install
+## Rhythmbox 3.X
 
 depends on : <code>httplib, rhythmbox3, gtk3</code>
 
@@ -10,7 +9,7 @@ depends on : <code>httplib, rhythmbox3, gtk3</code>
     cd rhythmbox-microblogger
     sudo make install
 
-#Install on Gnome2
+## Rhythmbox 0.x
 
 if you are using gnome2 you can install the older version.
 
@@ -21,7 +20,19 @@ if you are using gnome2 you can install the older version.
     git checkout Gnome2
 
 
-restart rhythmbox and in <code>Edit->Plugins</code> activae microblogger. use Prefrences button to add accounts. close window when done
+# Usage
 
+- restart rhythmbox
+- in <code>Edit->Plugins</code> activate microblogger.
+- click on <code>Prefrences</code>` button to add accounts.
 
-Press Ctrl+M in rhythmbox main window to show Message box then click on send to send notice.
+- Press Ctrl+M in rhythmbox main window to show Message box
+- click on send to send notice.
+
+- Reposrt bugs!
+
+# Links
+
+- [Home Page][https://github.com/aliva/rhythmbox-microblogger]
+- [ScreenShots][http://freecode.com/projects/rhythmbox-microblogger/screenshots]
+- [FreeCode][http://freecode.com/projects/rhythmbox-microblogger]
