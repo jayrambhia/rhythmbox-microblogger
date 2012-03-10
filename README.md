@@ -24,12 +24,12 @@ if you are using gnome2 you can install the older version.
 
 - restart rhythmbox
 - in <code>Edit->Plugins</code> activate microblogger.
-- click on <code>Prefrences</code>` button to add accounts.
+- click on <code>Prefrences</code> button to add accounts.
 
-- Press Ctrl+M in rhythmbox main window to show Message box
-- click on send to send notice.
+- Press <code>Ctrl+M</code> in rhythmbox main window to show Message box
+- click on <code>Send</code> to send notice.
 
-- Reposrt bugs!
+- Report bugs!
 
 # Links
 
