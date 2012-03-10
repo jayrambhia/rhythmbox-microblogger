@@ -33,6 +33,6 @@ if you are using gnome2 you can install the older version.
 
 # Links
 
-- [Home Page][https://github.com/aliva/rhythmbox-microblogger]
-- [ScreenShots][http://freecode.com/projects/rhythmbox-microblogger/screenshots]
-- [FreeCode][http://freecode.com/projects/rhythmbox-microblogger]
+- [Home Page](https://github.com/aliva/rhythmbox-microblogger)
+- [ScreenShots](http://freecode.com/projects/rhythmbox-microblogger/screenshots)
+- [FreeCode](http://freecode.com/projects/rhythmbox-microblogger)
