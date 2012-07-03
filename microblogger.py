@@ -139,6 +139,7 @@ class Microblogger(GObject.Object, Peas.Activatable):
             for item in items:
                 # if has tag
                 tmp=str(items[item])
+                tmp = tmp.split(".")[0]
                 tmp=self.fix_tag(tmp)
                 text=text.replace('#'+item, '#'+tmp)
 
@@ -197,15 +198,8 @@ class Microblogger(GObject.Object, Peas.Activatable):
             #GLib.timeout_add_seconds(5, self.on_cancel_clicked, None
 
     def fix_tag(self, text):
-        chars='!@#$%^&*()-+=\\|/[]{};:\'"<>,? '
-
-        for c in chars:
-            text=text.replace(c, '_')
-
-        for c in ('____', '___', '__'):
-            text=text.replace(c, '_')
-
-        return text.strip(chars+'_')
+        text = text.split(".")[0]
+        return text
 
 class MicrobloggerConfigurable(GObject.Object, PeasGtk.Configurable):
     __gtype_name__ = 'MicrobloggerConfigurable'
